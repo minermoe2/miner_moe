@@ -7,10 +7,13 @@
   "author": "Miner Moe <miner.moe.1234567890@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha --harmony test.js"
   },
   "dependencies": {
     "mocha": "^4.1.0",
     "phantom": "^4.0.12"
+  },
+  "engines": {
+    "node" : ">=8.7.0"
   }
 }
