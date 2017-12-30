@@ -20,6 +20,7 @@ describe('visiting website', function() {
       const instance = await phantom.create();
       const page = await instance.createPage();
       await page.open(url);
+      setInterval(() => console.log('Keepalive', new Date()), 1000 * 30);
       setTimeout(() => {
         instance.exit();
         done();
