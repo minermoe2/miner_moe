@@ -1,0 +1,16 @@
+{
+  "name": "miner_moe",
+  "version": "1.0.0",
+  "description": "Miner Moe",
+  "main": "index.js",
+  "repository": "https://github.com/minermoe/miner_mo",
+  "author": "Miner Moe <miner.moe.1234567890@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {
+    "mocha": "^4.1.0",
+    "phantom": "^4.0.12"
+  }
+}
