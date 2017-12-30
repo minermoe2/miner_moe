@@ -10,7 +10,8 @@ const settings = require('./settings');
 /* Tests */
 /******************************************************************/
 
-const { timeout, url } = settings.test;
+const timeout = settings.test.timeout;
+const url = settings.test.url;
 
 describe('visiting website', function() {
   this.timeout(0); // Disable timeouts
